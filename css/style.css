@@ -116,7 +116,7 @@ section+section{border-top:1px solid var(--border)}
 .techpack-layout{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(2rem,5vw,4rem);align-items:start;margin-top:2.5rem}
 @media(max-width:860px){.techpack-layout{grid-template-columns:1fr}}
 .techpack-explainer h3{font-size:1.05rem;font-weight:600;color:var(--text-primary);margin-bottom:.75rem}
-.techpack-explainer p{font-size:.9rem;color:var(--text-secondary);line-height:1.7;margin-bottom:1.25rem}
+.techpack-explainer p{font-size:clamp(.95rem,.85rem + .5vw,1.1rem);color:var(--text-secondary);line-height:1.7;margin-bottom:1.25rem}
 .pack-examples{display:flex;flex-direction:column;gap:.75rem;margin-top:1.5rem}
 .pack-example{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;border-radius:var(--radius-md);border:1px solid var(--border);background:var(--bg-elevated);transition:all var(--transition);text-decoration:none}
 .pack-example:hover{border-color:var(--border-bright);background:var(--bg-card)}
