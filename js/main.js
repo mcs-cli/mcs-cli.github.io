@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function animateTerminal(body) {
-    body.style.height = body.offsetHeight + 'px';
+    body.style.minHeight = body.offsetHeight + 'px';
     body.textContent = '';
     body.classList.add('animated');
 
